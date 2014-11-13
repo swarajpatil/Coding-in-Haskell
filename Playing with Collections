@@ -16,3 +16,7 @@ take 5 ([1,2..20])
 take 5 (repeat 10)
 
 replicate 3 10 returns [10,10,10]
+
+//zip to combine two lists
+
+zip [1,2,3,4,5] [5,5,5,5,5]  //[(1,5),(2,5),(3,5),(4,5),(5,5)] 
