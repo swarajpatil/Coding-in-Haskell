@@ -1,0 +1,15 @@
+
+// map - apply function on each element of list
+map (+1) [1,2,3]
+
+// to filter element on in list based on function apply to each element
+filter even [1,2..50]
+
+// It is function which replace : with f (function) + and [] empty list with default value - 0 
+// (1:(2:(3:(4:(5:([])))))) in this list : replace with + and [] with 0
+// (1+(2+(3+(4+(5+(0)))))) = 15
+
+foldr (+) 0 [1,2,3,4,5]
+
+foldr (*) 1 [1,2,3,4,5]
+
